@@ -37,35 +37,69 @@ export default function Home() {
 					</div>
 				</div>
 				<div className={styles.gallery}>
-					<div className={styles.galleryimage}>
-						<Image src="/photo1.png" layout="fill" alt="Stool in room" />
+					<div>
+						<div className={styles.galleryimage}>
+							<Image
+								src="/photo1.png"
+								height="300"
+								width="299"
+								alt="Stool in room"
+							/>
+						</div>
 					</div>
-					<div className={styles.galleryimage}>
-						<Image src="/photo2.png" layout="fill" alt="Sofa in room" />
+					<div>
+						<div className={styles.galleryimage}>
+							<Image
+								src="/photo2.png"
+								height="305"
+								width="629"
+								alt="Sofa in room"
+							/>
+						</div>
 					</div>
-					<div className={styles.galleryimage}>
-						<Image src="/photo3.png" layout="fill" alt="Standing bath tub" />
+					<div>
+						<div className={styles.galleryimage}>
+							<Image
+								src="/photo3.png"
+								height="305"
+								width="629"
+								alt="Standing bath tub"
+							/>
+						</div>
 					</div>
-					<div className={styles.galleryimage}>
-						<Image
-							src="/photo4.png"
-							layout="fill"
-							alt="Fancy black standing lamp"
-						/>
+					<div>
+						<div className={styles.galleryimage}>
+							<Image
+								src="/photo4.png"
+								height="629"
+								width="299"
+								alt="Fancy black standing lamp"
+							/>
+						</div>
 					</div>
-					<div className={styles.galleryimage}>
-						<Image src="/photo5.png" layout="fill" alt="Green exotic plant" />
+					<div>
+						<div className={styles.galleryimage}>
+							<Image
+								src="/photo5.png"
+								height="300"
+								width="299"
+								alt="Green exotic plant"
+							/>
+						</div>
 					</div>
-					<div className={styles.galleryimage}>
-						<Image
-							src="/photo6.png"
-							layout="fill"
-							alt="Farm house table with low wicker stools"
-						/>
+					<div>
+						<div className={styles.galleryimage}>
+							<Image
+								src="/photo6.png"
+								height="300"
+								width="299"
+								alt="Farm house table with low wicker stools"
+							/>
+						</div>
 					</div>
 				</div>
 			</main>
-			<footer>
+			<footer className={styles.footer}>
 				<p>
 					created by <a href="https://github.com/Matt-htims">Matt.htims</a> -
 					devChallenges.io

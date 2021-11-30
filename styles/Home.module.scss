@@ -104,8 +104,6 @@
 }
 
 .gallery {
-	height: 900px;
-	width: 900px;
 	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -139,13 +137,27 @@
 		position: relative;
 		border-radius: 12px;
 		overflow: hidden;
-		object-fit: cover;
-		height: 100%;
-		width: 100%;
+		vertical-align: middle;
 	}
 
 	@include mobile() {
-		height: 340px;
-		width: 340px;
+		grid-gap: 12px;
+	}
+}
+
+.footer {
+	margin-bottom: 24px;
+	p {
+		text-align: center;
+		font: 500 14px 'Montserrat', sans-serif;
+		color: $footer;
+
+		a {
+			font-weight: 700;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
 	}
 }
